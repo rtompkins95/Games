@@ -1,0 +1,9 @@
+#pragma once
+#include "Globals.h"
+#include "BaseObject.h"
+
+class Assault: public BaseObject
+{
+private:
+	int direction;
+};
